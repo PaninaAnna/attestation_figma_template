@@ -7,119 +7,178 @@
   </head>
   <body>
     <header>
-      <h1>UniDesign</h1>
-      <nav>
-        <ul>
-          <li><a href="#">About Me</a></li>
-          <li><a href="#">Projects</a></li>
-          <li><a href="#">Contacts</a></li>
-          <li><a href="#">Hire Me</a></li>
+      <div class="logo-container"><span class="logo">UniDesign</span></div>
+      <nav class="header-menu-container">
+        <ul class="header-menu">
+          <li><a class="header-menu-item link-1" href="#">About Me</a></li>
+          <li><a class="header-menu-item link-2" href="#">Projects</a></li>
+          <li><a class="header-menu-item link-3" href="#">Contacts</a></li>
+          <li><a class="header-menu-item link-4" href="#">Hire Me</a></li>
         </ul>
       </nav>
     </header>
     <main>
-      <section>
-        <div>
-          <h3>Welcome To My PortFolio</h3>
-          <span>Hi , I am Steven UI/UX</span>
-          <span>Designer</span>
-          <p>
+      <section class="intro-section">
+        <div class="intro-container">
+          <h3 class="intro-subtitle">Welcome To My PortFolio</h3>
+          <span class="intro-title">Hi , I am Steven UI/UX</span>
+          <span class="intro-title-highlight">Designer</span>
+          <p class="intro-text">
             Lorem Ipsum dolar sit amet, consectetur adipicsing elit. Locus odio
             et, plateo erat est sed turpis hoc equit
           </p>
-        </div>
-        <div>
-          <button>Hire Me</button>
-          <button>My Project</button>
+          <button class="btn hire">Hire Me</button>
+          <button class="btn my-project">My Project</button>
         </div>
         <img src="../assets/images/photo.png" alt="Photo of Steven" />
       </section>
-      <section>
-        <div>
-          <h2>About Me</h2>
-          <p>
+      <section class="about-me-section">
+        <div class="about-me-container">
+          <h2 class="about-me-title">About Me</h2>
+          <p class="about-me-text">
             Lorem Ipsum is simply dummy text of the printing and typesetting
             industry. Lorem Ipsum has been the industry's standard dummy text
             ever since the 1500s, when an unknown printer took a galley of type
             and scrambled it to make a type specimen book. It has .
           </p>
-          <button>Hire Me</button>
+          <button class="btn hire shadow">Hire Me</button>
         </div>
-        <img src="../assets/images/AboutMe.svg" alt="About Me picture" />
-      </section>
-      <section>
-        <div>
-          <h2>My Projects</h2>
-          <p>Lorem Ipsum is simply dummy text of the printing</p>
-        </div>
-        <div>
-          <img src="../assets/images/My projects/project1.png" alt="Project1" />
-          <img src="../assets/images/My projects/project2.png" alt="Project2" />
-          <img src="../assets/images/My projects/project3.png" alt="Project3" />
-          <img src="../assets/images/My projects/project4.png" alt="Project4" />
-          <img src="../assets/images/My projects/project5.png" alt="Project5" />
-          <img src="../assets/images/My projects/project6.png" alt="Project6" />
-          <img src="../assets/images/My projects/project7.png" alt="Project7" />
-          <img src="../assets/images/My projects/project8.png" alt="Project8" />
-          <img src="../assets/images/My projects/project9.png" alt="Project9" />
+        <div class="about-me-pic-container">
+          <img
+            class="about-me-pic"
+            src="../assets/images/AboutMe.svg"
+            alt="About Me picture"
+          />
         </div>
       </section>
-      <section>
-        <div>
-          <h2>Contact Me</h2>
-          <p>Lorem Ipsum is simply dummy text of the printing</p>
+      <section class="my-projects-section">
+        <div class="my-projects-description-container">
+          <h2 class="my-projects-title">My Projects</h2>
+          <p class="my-projects-text">
+            Lorem Ipsum is simply dummy text of the printing
+          </p>
         </div>
-        <form>
-          <div><input type="text" name="email" placeholder="Email" /></div>
-          <div>
-            <input type="text" name="password" placeholder="Password" />
-          </div>
-          <div>
-            <textarea name="message" placeholder="Message.."></textarea>
-          </div>
-          <button>Contact</button>
-        </form>
+        <div class="my-projects-preview-container">
+          <img
+            class="my-project"
+            src="../assets/images/My projects/project1.png"
+            alt="Project1"
+          />
+          <img
+            class="my-project"
+            src="../assets/images/My projects/project2.png"
+            alt="Project2"
+          />
+          <img
+            class="my-project"
+            src="../assets/images/My projects/project3.png"
+            alt="Project3"
+          />
+          <img
+            class="my-project"
+            src="../assets/images/My projects/project4.png"
+            alt="Project4"
+          />
+          <img
+            class="my-project"
+            src="../assets/images/My projects/project5.png"
+            alt="Project5"
+          />
+          <img
+            class="my-project"
+            src="../assets/images/My projects/project6.png"
+            alt="Project6"
+          />
+          <img
+            class="my-project"
+            src="../assets/images/My projects/project7.png"
+            alt="Project7"
+          />
+          <img
+            class="my-project"
+            src="../assets/images/My projects/project8.png"
+            alt="Project8"
+          />
+          <img
+            class="my-project"
+            src="../assets/images/My projects/project9.png"
+            alt="Project9"
+          />
+        </div>
+      </section>
+      <section class="contact-me-section">
+        <h2 class="contact-me-title">Contact Me</h2>
+        <p class="contact-me-text">
+          Lorem Ipsum is simply dummy text of the printing
+        </p>
+        <div class="contact-me-form-container">
+          <form class="contact-me-form">
+            <div class="form-item form-shadow">
+              <input type="text" name="email" placeholder="Email" />
+            </div>
+            <div class="form-item form-shadow">
+              <input type="text" name="password" placeholder="Password" />
+            </div>
+            <div class="form-item form-shadow">
+              <textarea name="message" placeholder="Message.."></textarea>
+            </div>
+            <button class="form-button form-shadow">Contact</button>
+          </form>
+        </div>
+        <div class="contact-me-pic-container">
+          <img
+            class="contact-me-pic"
+            src="../assets/images/ContactMe.svg"
+            alt="Contact me picture"
+          />
+        </div>
       </section>
     </main>
     <footer>
-      <div>
-        <div>
-          <h1 class="footer-h1">UniDesign</h1>
-          <div>
-            <form>
+      <div class="footer-container">
+        <div class="footer-nav-section">
+          <h1 class="footer-logo">UniDesign</h1>
+          <div class="footer-subscribe-form-container">
+            <form class="email-form">
               <input type="text" name="email-sub" placeholder="Email" />
             </form>
-            <button>Subscribe</button>
+            <button class="subscribe-btn">Subscribe</button>
           </div>
         </div>
-        <div>
-          <h3 class="footer-h3">Platform</h3>
-          <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Overview</a></li>
-            <li><a href="#">Pricing</a></li>
-            <li><a href="#">About</a></li>
-          </ul>
-        </div>
-        <div>
-          <h3 class="footer-h3">Help</h3>
-          <ul>
-            <li><a href="#">How It Works?</a></li>
-            <li><a href="#">Pay?</a></li>
-            <li><a href="#">Question?</a></li>
-            <li><a href="#">Contact?</a></li>
-          </ul>
-        </div>
-        <div>
-          <h3 class="footer-h3">Help</h3>
-          <p>(+000) 1234-6789</p>
-          <p>116 Archlor Road Broadlaband, NewYork (NYC) 1205</p>
-        </div>
+        <nav class="footer-nav">
+          <div class="footer-nav-section">
+            <h3 class="footer-title">Platform</h3>
+            <ul class="footer-nav-list">
+              <li class="footer-nav-link"><a href="#">Home</a></li>
+              <li class="footer-nav-link"><a href="#">Overview</a></li>
+              <li class="footer-nav-link"><a href="#">Pricing</a></li>
+              <li class="footer-nav-link"><a href="#">About</a></li>
+            </ul>
+          </div>
+          <div class="footer-nav-section">
+            <h3 class="footer-title">Help</h3>
+            <ul class="footer-nav-list">
+              <li class="footer-nav-link"><a href="#">How It Works?</a></li>
+              <li class="footer-nav-link"><a href="#">Pay?</a></li>
+              <li class="footer-nav-link"><a href="#">Question?</a></li>
+              <li class="footer-nav-link"><a href="#">Contact?</a></li>
+            </ul>
+          </div>
+          <div class="footer-nav-section">
+            <h3 class="footer-nav-title">Help</h3>
+            <p class="footer-nav-text">(+000) 1234-6789</p>
+            <p class="footer-nav-text">
+              116 Archlor Road Broadlaband, NewYork (NYC) 1205
+            </p>
+          </div>
+        </nav>
       </div>
-      <div class="line"></div>
-      <div>
-        <p>CopyRighted 2020-2023 All Rights Reserved.</p>
-        <div><!-- Social media icons placeholder 4 icons --></div>
+      <hr class="footer-line" />
+      <div class="copyright">
+        <p class="copyright-text">CopyRighted 2020-2023 All Rights Reserved.</p>
+        <div class="social-media-links">
+          <!-- Social media icons placeholder 4 icons -->
+        </div>
       </div>
     </footer>
   </body>

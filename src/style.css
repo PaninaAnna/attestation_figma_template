@@ -1,0 +1,154 @@
+:root {
+  --main-color: #2000e7;
+  --highlight-color: #F2BD00;
+  --bg-color-1: #43BAFD0F 6%;
+  --bg-color-2: #FFD69633;
+}
+
+@font-face {
+  font-weight: 400;
+  font-family: "Poppins";
+  src: url("../assets/fonts/Poppins/Poppins-Regular.ttf");
+}
+
+@font-face {
+  font-weight: 700;
+  font-family: "Poppins";
+  src: url("../assets/fonts/Poppins/Poppins-Bold.ttf");
+}
+
+@font-face {
+  font-weight: 400;
+  font-family: "Jost";
+  src: url("../assets/fonts/Jost/Jost-Regular.ttf");
+}
+
+@font-face {
+  font-weight: 700;
+  font-family: "Jost";
+  src: url("../assets/fonts/Jost/Jost-Bold.ttf");
+}
+
+html {
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+header {
+  padding-top: 45px;
+  padding-left: 78px;
+  margin-bottom: 201px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  color: #0e0578;
+  font-family: "Poppins";
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 2rem;
+}
+
+.header-menu {
+  display: flex;
+}
+
+.header-menu-item {
+  color: #686565;
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 45px;
+}
+
+.link-1 {
+  width: 143px;
+  margin-right: 79px;
+}
+
+.link-2 {
+  width: 119px;
+  margin-right: 78px;
+}
+
+.link-3 {
+  width: 138px;
+  margin-right: 72px;
+}
+
+.link-4 {
+  width: 111px;
+  margin-right: 130px;
+}
+
+.intro-section {
+  display: flex;
+  justify-content: space-around;
+}
+
+.intro-container {
+  flex-direction: column;
+}
+
+.intro-text {
+  flex-wrap: wrap;
+}
+
+.btn {
+  height: 72px;
+  width: 246px;
+  border-radius: 10px;
+  border: 2px;
+  box-shadow: 11px 21px 15px 6px #00000040;
+
+  font-family: "Poppins";
+  font-weight: 400;
+  size: 24px;
+  line-height: 36px;
+}
+
+.hire {
+  background: var(--blue-text-color);
+  color: #ffffff;
+}
+
+.about-me-section {
+  background: var(--bg-color-1);
+}
+.my-project {
+  border-color: var(--blue-text-color);
+  color: var(--blue-text-color);
+}
+
+.contact-me-section {
+  background: var(--bg-color-1);
+}
+
+footer {
+  background: var(--bg-color-2) 20%;
+}
+
+.footer-h1 {
+  letter-spacing: 35%;
+}
+
+.line {
+  border-bottom: 3px;
+  border-color: #000000;
+}
+
+hr {
+  border: 3px solid #000000;
+}
