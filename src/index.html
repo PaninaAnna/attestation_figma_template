@@ -20,7 +20,7 @@
     <main>
       <section class="intro-section">
         <div class="intro-container">
-          <h1>Welcome To My PortFolio</h3>
+          <h1>Welcome To My PortFolio</h1>
           <div class="intro-title">
             <span>Hi , I am Steven</span>
             <span>UI/UX <span class="highlight">Designer</span></span>
@@ -31,7 +31,7 @@
           </p>
           <div class="intro-btn-container">
             <button class="btn hire">Hire Me</button>
-            <button class="btn my-project">My Project</button>
+            <button class="btn my-project-button">My Project</button>
           </div>
         </div>
         <img src="../assets/images/photo.png" alt="Photo of Steven" />
@@ -48,7 +48,7 @@
           <button class="btn hire shadow">Hire Me</button>
         </div>
         <div class="about-me-pic-container">
-          <img src="../assets/images/AboutMe.svg" alt="About Me picture"/>
+          <img src="../assets/images/AboutMe.svg" alt="About Me picture" />
         </div>
       </section>
       <section class="my-projects-section">
@@ -105,30 +105,41 @@
         </div>
       </section>
       <section class="contact-me-section">
-        <h2 class="contact-me-title">Contact Me</h2>
-        <p class="contact-me-text">
-          Lorem Ipsum is simply dummy text of the printing
-        </p>
-        <div class="contact-me-form-container">
-          <form class="contact-me-form">
-            <div class="form-item form-shadow">
-              <input type="text" name="email" placeholder="Email" />
-            </div>
-            <div class="form-item form-shadow">
-              <input type="text" name="password" placeholder="Password" />
-            </div>
-            <div class="form-item form-shadow">
-              <textarea name="message" placeholder="Message.."></textarea>
-            </div>
-            <button class="form-button form-shadow">Contact</button>
-          </form>
+        <div class="contact-me-description">
+          <h2>Contact Me</h2>
+          <p>Lorem Ipsum is simply dummy text of the printing</p>
         </div>
-        <div class="contact-me-pic-container">
-          <img
-            class="contact-me-pic"
-            src="../assets/images/ContactMe.svg"
-            alt="Contact me picture"
-          />
+        <div class="contact-me-container">
+          <div class="contact-me-form">
+            <form>
+              <div class="main-form">
+                <input
+                  class="form-item shadow"
+                  type="text"
+                  name="email"
+                  placeholder="Email"
+                />
+                <input
+                  class="form-item shadow"
+                  type="text"
+                  name="password"
+                  placeholder="Password"
+                />
+                <textarea
+                  class="form-item shadow"
+                  name="message"
+                  placeholder="Message.."
+                ></textarea>
+              </div>
+              <input class="submit-btn shadow" type="submit" value="Contact" />
+            </form>
+          </div>
+          <div class="contact-me-pic">
+            <img
+              src="../assets/images/ContactMe.svg"
+              alt="Contact me picture"
+            />
+          </div>
         </div>
       </section>
     </main>
