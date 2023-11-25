@@ -76,7 +76,6 @@ header {
   color: #686565;
   font-size: 30px;
   line-height: 45px;
-  text-wrap: nowrap;
 }
 
 .intro-section {
@@ -96,7 +95,7 @@ header {
   flex-direction: column;
 }
 
-.intro-container h1 {
+.intro-container h2 {
   color: var(--main-color);
   font-weight: 400;
   font-size: 30px;
