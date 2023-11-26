@@ -10,9 +10,9 @@
       <span class="logo">UniDesign</span>
       <nav>
         <ul class="header-menu">
-          <li><a href="#">About Me</a></li>
-          <li><a href="#">Projects</a></li>
-          <li><a href="#">Contacts</a></li>
+          <li><a href="#AboutMe">About Me</a></li>
+          <li><a href="#Projects">Projects</a></li>
+          <li><a href="#Contacts">Contacts</a></li>
           <li><a href="#">Hire Me</a></li>
         </ul>
       </nav>
@@ -30,22 +30,24 @@
             et, plateo erat est sed turpis hoc equit
           </p>
           <div class="intro-btn-container">
-            <button class="btn hire">Hire Me</button>
-            <button class="btn my-project-button">My Project</button>
+            <button class="btn hire"><a href="#">Hire Me</a></button>
+            <button class="btn my-project-button">
+              <a href="#Projects">My Project</a>
+            </button>
           </div>
         </div>
         <img src="../assets/images/photo.png" alt="Photo of Steven" />
       </section>
       <section class="about-me-section">
         <div class="about-me-container">
-          <h2>About Me</h2>
+          <h2 id="AboutMe">About Me</h2>
           <p>
             Lorem Ipsum is simply dummy text of the printing and typesetting
             industry. Lorem Ipsum has been the industry's standard dummy text
             ever since the 1500s, when an unknown printer took a galley of type
             and scrambled it to make a type specimen book. It has .
           </p>
-          <button class="btn hire shadow">Hire Me</button>
+          <button class="btn hire"><a href="#">Hire Me</a></button>
         </div>
         <div class="about-me-pic-container">
           <img src="../assets/images/AboutMe.svg" alt="About Me picture" />
@@ -53,7 +55,7 @@
       </section>
       <section class="my-projects-section">
         <div class="my-projects-description">
-          <h2>My Projects</h2>
+          <h2 id="Projects">My Projects</h2>
           <p>Lorem Ipsum is simply dummy text of the printing</p>
         </div>
         <div class="my-projects-preview-container">
@@ -106,7 +108,7 @@
       </section>
       <section class="contact-me-section">
         <div class="contact-me-description">
-          <h2>Contact Me</h2>
+          <h2 id="Contacts">Contact Me</h2>
           <p>Lorem Ipsum is simply dummy text of the printing</p>
         </div>
         <div class="contact-me-container">
@@ -151,7 +153,7 @@
             <form class="email-form">
               <input type="text" name="email-sub" placeholder="Email" />
             </form>
-            <button class="subscribe-btn">Subscribe</button>
+            <button class="subscribe-btn"><a href="#">Subscribe</a></button>
           </div>
         </div>
         <div class="footer-nav">
@@ -182,7 +184,26 @@
       <div class="copyright">
         <p class="copyright-text">CopyRighted 2020-2023 All Rights Reserved.</p>
         <div class="social-media-links">
-          <!-- Social media icons placeholder 4 icons -->
+          <a href="https://www.Youtube.com/"
+            ><img src="../assets/images/SocialMedia/Youtube.png" alt="YouTube"
+          /></a>
+          <a href="https://www.instagram.com/"
+            ><img
+              src="../assets/images/SocialMedia/Instagram.png"
+              alt="Instagram"
+          /></a>
+          <a
+            href="https://www.facebook.com/
+          "
+            ><img
+              src="../assets/images/SocialMedia/Facebook.png"
+              alt="Facebook"
+          /></a>
+          <a href="https://linkedin.com/"
+            ><img
+              src="../assets/images/SocialMedia/Linkedin.png"
+              alt="LinkedIn"
+          /></a>
         </div>
       </div>
     </footer>
